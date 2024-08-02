@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="asset/css/master.css">
+    <link rel="stylesheet" href="asset/css/output.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://kit.fontawesome.com/9926faf686.js" crossorigin="anonymous"></script>
+
+    <!-- Demo styles -->
+    <style>
+      html,
+      body {
+        position: relative;
+        height: 100%;
+      }
+  
+      body {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #000;
+        margin: 0;
+        padding: 0;
+      }
+  
+      .swiper {
+        width: 100%;
+        height: 100%;
+      }
+  
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background-color: transparent;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+  
+      .swiper-slide .big {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .mySwiper3 .swiper-slide{
+        background-color: #eee !important;
+      }
+  
+    </style>
+</head>
+<body class="text[#374151] bg-[#f3ebe8]">
+    <div class="protifilo">
+        <figure>
+            <img src="asset/img/1.jpg" alt="">
+            <span><a href="https://www.instagram.com/elaheseyfi_web"><i class="fab fa-instagram"></i></a></span>
+            <span><a href="https://github.com/ElaheSeyfi"><i class="fab fa-github"></i></a></span>
+            <span><a href="https://www.linkedin.com/in/elahe-seyfi-44526b2a1"><i class="fab fa-linkedin-in"></i></a></span>
+        </figure>
+    </div>
+    <main class="w-full min-h-[50px] overflow-hidden  ">
+        <div class="row w-full md:pr-[50px] md:ps-[50px] justify-center">
+            <div class="head relative z-50 w-full h-[70px] ">
+                <div class="row h-full *:h-full ">
+                    <div class=" w-1/2 lg:w-5/6 ">
+                        <div class="row  w-full h-full ">
+                            <img src="asset/img/logo.svg" alt="">
+                            <nav class="hidden lg:flex">
+                                <ul class="row items-center h-full">
+                                    <li><a href="" class="hover:decoration-[ text-regan-pink] hover:underline w-full flex h-full items-center justify-center ml-[10px] text-regal-pink">home</a></li>
+                                    <li><a href="" class="hover:decoration-[text-regal-gray] hover:underline w-full flex h-full items-center justify-center ml-[10px] text-regal-gray">aboutus</a></li>
+                                    <li><a href="" class="hover:decoration-[text-regal-gray] hover:underline w-full flex h-full items-center justify-center ml-[10px] text-regal-gray">menu</a></li>
+                                    <li><a href="" class="hover:decoration-[text-regal-gray] hover:underline w-full flex h-full items-center justify-center ml-[10px] text-regal-gray">reviews</a></li>
+                                    <li><a href="" class="hover:decoration-[text-regal-gray] hover:underline w-full flex h-full items-center justify-center ml-[10px] text-regal-gray">blog</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="w-1/2  lg:flex lg:w-1/6 ">
+                        <div class="row w-full h-full justify-end lg:justify-center items-center">
+                            <div class="hover:border-4 hover:border-black w-[100%] h-[40px] border-black hidden lg:flex rounded-md">
+                                <a href="" class="flex h-full w-full border justify-center items-center text-base">Make a Reservation</a>
+                            </div>
+                            <div class="cursor-pointer nav-toggle sm:flex lg:hidden pr-[10px] border w-[50px] h-[50px] justify-center items-center">
+                                <span class=" navbar-toggle flex justify-center items-center "><i class="fas fa-bars"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-moblie min-h-[100px] mobilehide bg-[#f0eded] w-full absolute z-[0px] top-[70px] overflow-hidden">
+                <div class="row w-full ">
+                    <ul class="w-full">
+                        <ul class=" items-center h-full">
+                            <li><a href="" class="w-full flex h-full items-center justify-center ml-[10px]">home</a></li>
+                            <li><a href="" class="w-full flex h-full items-center justify-center ml-[10px]">aboutus</a></li>
+                            <li><a href="" class="w-full flex h-full items-center justify-center ml-[10px]">menu</a></li>
+                            <li><a href="" class="w-full flex h-full items-center justify-center ml-[10px]">reviews</a></li>
+                            <li><a href="" class="w-full flex h-full items-center justify-center ml-[10px]">blog</a></li>
+                        </ul>
+                    </ul>
+                    <div class="w-full ">
+                        <div class="row w-full h-full justify-center items-center">
+                            <div class="w-[80%] h-[50px] border-black ">
+                                <a href="" class="flex h-full w-full border justify-center items-center">Make a Reservation</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- section one  -->
+             <div class="container-section-one min-h-[100px] w-full">
+                <div class="row">
+                    <div class=" w-1/2  min-h-[100px]">
+                        <div class="row h-full content-center">
+                          <h1 class="w-full md:w-[45%] text-6xl font-bold text-regal-gray ">Fresh & Tasty</h1>
+                          <p class="text-regal-matn mb-[20px]">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                          <div class="w-[40%] h-[50px] bg-regal-pink rounded-md flex items-center justify-center">
+                            <a href="">Make a Reservation</a>
+                          </div>
+                        </div>
+                    </div>
+                    <div class=" w-1/2  min-h-[100px]">
+                        <div class="row">
+                            <img src="asset/img/coffee_cookies.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="container-number w-full min-h-[200px]">
+                    <div class="row *:min-h-[200px]   *:justify-center *:items-center">
+                        <div class="w-1/2 md:w-1/4 *:w-full *:flex flex content-center flex-wrap">
+                            <span class="text-5xl count_number text-[#ff7377] w-full font-bold flex justify-center items-center">0</span>
+                            <span class="w-full text-regal-matn flex justify-center items-center">Shops</span>
+                        </div>
+                        <div class="w-1/2 md:w-1/4 *:w-full *:flex flex content-center flex-wrap ">
+                            <span class="text-5xl count_number text-[#ff7377]  w-full font-bold flex justify-center items-center">0</span>
+                            <span class="w-full text-regal-matn flex justify-center items-center">Years of Experience</span>
+                        </div>
+                        <div class="w-1/2 md:w-1/4 *:w-full *:flex flex content-center flex-wrap ">
+                            <span class="text-5xl count_number text-[#ff7377]  w-full font-bold flex justify-center items-center">0+</span>
+                            <span class="w-full text-regal-matn flex justify-center items-center">Coffees</span>
+                        </div>
+                        <div class="w-1/2 md:w-1/4 *:w-full *:flex flex content-center flex-wrap ">
+                            <span class="text-5xl count_number text-[#ff7377]  w-full font-bold flex justify-center items-center">0+</span>
+                            <span class="w-full text-regal-matn flex justify-center items-center">Reviews</span>
+                        </div>
+                    </div>
+                </div>
+             </div>
+            <!-- section one  -->
+             <!-- section two  -->
+              <div class="w-full min-h-[100px]  pt-[50px]">
+                <div class="row w-full h-full  md:pr-[50px] md:ps-[50px]">
+                    <div class="w-full md:w-1/2">
+                        <div class="row">
+                            <img src="asset/img/waffles.png" alt="">
+                        </div>
+                    </div>
+                    <div class="w-full md:w-1/2">
+                        <div class="row content-center h-full ">
+                            <h2 class="text-3xl w-full  md:w-[50%] font-bold text-regal-gray">The best day starts here</h2>
+                            <p class="text-xl text-regal-matn">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet</p>
+                        </div>
+                    </div>
+                </div>
+              </div>
+             <!-- section two  -->
+             <!-- section three  -->
+              <div class="w-full min-h-[100px]  ">
+                <div class="row w-full   p-[10px] md:pr-[50px] md:ps-[50px]">
+                    <div class="w-full md:w-1/2">
+                        <div class="row h-full content-center  text-2xl">
+                           <h2 class="text-3xl text-regal-gray font-bold">Open everyday</h2>
+                           <p class="text-xl text-regal-matn">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                        </div>
+                    </div>
+                    <div class="w-full md:w-1/2">
+                        <div class="row content-center h-full">
+                            <img src="asset/img/6378d1aa9e2f614fe32fcb0b_coffe_shop.png" alt="">
+                        </div>
+                    </div>
+                </div>
+              </div>
+             <!-- section three  -->
+              <!-- section four  -->
+               <div class="w-full min-h-[400px]  ">
+                <div class="row h-full p-[10px] md:pr-[50px] md:ps-[50px]">
+                    <div class="section-textfour w-full">
+                        <div class="row *:text-center justify-center mb-[20px]">
+                            <h2 class="text-regal-gray font-bold text-3xl" >New flawors</h2>
+                            <p class="text-regal-matn">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                        </div>
+                    </div>
+                    <div class="w-full min-h-[50%]">
+                        <div class="row w-full h-full">
+                            <div class="swiper mySwiper">
+                                <div class="swiper-wrapper">
+                                  <div class="swiper-slide">
+                                    <div class="container-coffe">
+                                        <div class="container-img">
+                                            <img src="asset/img/6385f858d5a2328664cd75e2_cup_of_coffee (1).png" alt="" class="w-[50%]">
+                                        </div>
+                                        <div class="w-full">
+                                            <h3 class="text-regal-gray">Qui Et Ad</h3>
+                                            <span class="text-regal-matn text-16">20$</span>
+                                            <del class="text-[#585858] text-16 ">9%</del>
+                                        </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide">
+                                    <div class="container-coffe">
+                                        <div class="container-img  w-full">
+                                            <img src="asset/img/6385f875aa92be4a4cf6377a_cup_of_coffee (2).png" alt="" class="w-[70%]">
+                                        </div>
+                                        <div class="w-full">
+                                            <h3 class="text-regal-gray">Qui Et Ad</h3>
+                                            <span class="text-regal-matn text-16">20$</span>
+                                            <del class="text-[#585858] text-16 ">9%</del>
+                                        </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide">
+                                    <div class="container-coffe">
+                                        <div class="container-img">
+                                            <img src="asset/img/6385f88f591f6fc670d5d76e_cup_of_coffee (3).png" alt="" class="w-[50%]">
+                                        </div>
+                                        <div class="w-full">
+                                            <h3 class="text-regal-gray">Qui Et Ad</h3>
+                                            <span class="text-regal-matn text-16">20$</span>
+                                            <del class="text-[#585858] text-16 ">9%</del>
+                                        </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide">
+                                    <div class="container-coffe">
+                                        <div class="container-img">
+                                            <img src="asset/img/6385f89b4157993b872fa1f6_cup_of_coffee (4).png" alt="" class="w-[70%]">
+                                        </div>
+                                        <div class="w-full">
+                                            <h3 class="text-regal-gray">Qui Et Ad</h3>
+                                            <span class="text-regal-matn text-16">20$</span>
+                                            <del class="text-[#585858] text-16 ">9%</del>
+                                        </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide">
+                                    <div class="container-coffe">
+                                        <div class="container-img">
+                                            <img src="asset/img/6385f8a7e12aa03b71fe68c3_cup_of_coffee (5).png" alt="" class="w-[50%]">
+                                        </div>
+                                        <div class="w-full">
+                                            <h3 class="text-regal-gray">Qui Et Ad</h3>
+                                            <span class="text-regal-matn text-16">20$</span>
+                                            <del class="text-[#585858] text-16 ">9%</del>
+                                        </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide">
+                                    <div class="container-coffe">
+                                        <div class="container-img">
+                                            <img src="asset/img/6385f8b5d5a2324a82cd7a03_cup_of_coffee (6).png" alt="" class="w-[70%]">
+                                        </div>
+                                        <div class="w-full">
+                                            <h3 class="text-regal-gray">Qui Et Ad</h3>
+                                            <span class="text-regal-matn text-16">20$</span>
+                                            <del class="text-[#585858] text-16 ">9%</del>
+                                        </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide">
+                                    <div class="container-coffe">
+                                        <div class="container-img">
+                                            <img src="asset/img/6385f8edd5a2324496cd7c19_cup_of_coffee (8).png" alt="" class="w-[50%]">
+                                        </div>
+                                        <div class="w-full">
+                                            <h3 class="text-regal-gray">Qui Et Ad</h3>
+                                            <span class="text-regal-matn text-16">20$</span>
+                                            <del class="text-[#585858] text-16 ">9%</del>
+                                        </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                                <!-- <div class="swiper-pagination"></div> -->
+                              </div>
+                        </div>
+                    </div>
+                    <div class="mt-[50px] w-full h-[50px]  flex justify-center items-center rounded-md"><a href="" class="w-[20%] h-[50px] text-regal-matn rounded-md bg-regal-pink flex items-center justify-center">go to menu</a></div>
+                </div>
+               </div>
+              <!-- section four  -->
+               <!-- section five  -->
+                <div class="w-full min-h-[300px] pt-[50px]  md:pr-[50px] md:ps-[50px]  ">
+                    <div class="row w-full h-full flex flex-wrap md:flex-row-reverse relative">
+                        <img src="asset/img/63884ead82d2a9493d103a69_donuts.jpg" alt="" class="rounded-lg">
+                        <div class="absolute bottom-6 left-6 w-[50%] h-[200px] bg-hero-pattern bg-contain bg-no-repeat flex flex-wrap content-center">
+                            <h3 class="w-full text-regal-gray text-base md:text-xl mb-[15px] ps-[10px] font-bold">Try our special desserts</h3>
+                            <a href="" class=" w-[100px] h-[20%] md:h-[50px] text-regal-matn flex items-center justify-center bg-regal-pink rounded-md translate-x-2 translate-y[50px]">go to menu</a>
+                        </div>
+                    </div>
+                </div>
+               <!-- section five  -->
+                <!-- section six  -->
+                <div class="w-full min-h-[400px]  pt-[50px] ">
+                    <div class="row  h-full p-[10px] md:pr-[50px] md:ps-[50px]">
+                        <div class="section-textfour w-full">
+                            <div class="row *:text-center justify-center mb-[20px]">
+                                <h2 class="text-regal-gray font-bold text-3xl" >Pastry</h2>
+                                <p class="text-regal-matn">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                            </div>
+                        </div>
+                        <div class="w-full min-h-[50%]">
+                            <div class="row w-full h-full">
+                                <div class="swiper mySwiper">
+                                    <div class="swiper-wrapper">
+                                      <div class="swiper-slide">
+                                        <div class="container-coffe">
+                                            <div class="container-img">
+                                                <img src="asset/img/6385d20c58dfef42b66c905d_Bun (5).png" alt="" class="w-[50%]">
+                                            </div>
+                                            <div class="w-full">
+                                                <h3 class="text-regal-gray">Qui Et Ad</h3>
+                                                <span class="text-regal-matn text-16">20$</span>
+                                                <del class="text-[#585858] text-16 ">9%</del>
+                                            </div>
+                                        </div>
+                                      </div>
+                                      <div class="swiper-slide">
+                                        <div class="container-coffe">
+                                            <div class="container-img  w-full">
+                                                <img src="asset/img/6385d225b648994171f9154d_Cookies.png" alt="" class="w-[70%]">
+                                            </div>
+                                            <div class="w-full">
+                                                <h3 class="text-regal-gray">Qui Et Ad</h3>
+                                                <span class="text-regal-matn text-16">20$</span>
+                                                <del class="text-[#585858] text-16 ">9%</del>
+                                            </div>
+                                        </div>
+                                      </div>
+                                      <div class="swiper-slide">
+                                        <div class="container-coffe">
+                                            <div class="container-img">
+                                                <img src="asset/img/6385d3af717fc90a502648b4_Donut (3).png" alt="" class="w-[50%]">
+                                            </div>
+                                            <div class="w-full">
+                                                <h3 class="text-regal-gray">Qui Et Ad</h3>
+                                                <span class="text-regal-matn text-16">20$</span>
+                                                <del class="text-[#585858] text-16 ">9%</del>
+                                            </div>
+                                        </div>
+                                      </div>
+                                      <div class="swiper-slide">
+                                        <div class="container-coffe">
+                                            <div class="container-img">
+                                                <img src="asset/img/6385d24b2e29bd1c59e9c6fe_Croissant.png" alt="" class="w-[70%]">
+                                            </div>
+                                            <div class="w-full">
+                                                <h3 class="text-regal-gray">Qui Et Ad</h3>
+                                                <span class="text-regal-matn text-16">20$</span>
+                                                <del class="text-[#585858] text-16 ">9%</del>
+                                            </div>
+                                        </div>
+                                      </div>
+                                      <div class="swiper-slide">
+                                        <div class="container-coffe">
+                                            <div class="container-img">
+                                                <img src="asset/img/6385d20c58dfef42b66c905d_Bun (5).png" alt="" class="w-[50%]">
+                                            </div>
+                                            <div class="w-full">
+                                                <h3 class="text-regal-gray">Qui Et Ad</h3>
+                                                <span class="text-regal-matn text-16">20$</span>
+                                                <del class="text-[#585858] text-16 ">9%</del>
+                                            </div>
+                                        </div>
+                                      </div>
+                                      <div class="swiper-slide">
+                                        <div class="container-coffe">
+                                            <div class="container-img">
+                                                <img src="asset/img/6385d3af717fc90a502648b4_Donut (3).png" alt="" class="w-[70%]">
+                                            </div>
+                                            <div class="w-full">
+                                                <h3 class="text-regal-gray">Qui Et Ad</h3>
+                                                <span class="text-regal-matn text-16">20$</span>
+                                                <del class="text-[#585858] text-16 ">9%</del>
+                                            </div>
+                                        </div>
+                                      </div>
+                                      <div class="swiper-slide">
+                                        <div class="container-coffe">
+                                            <div class="container-img">
+                                                <img src="asset/img/6385f8edd5a2324496cd7c19_cup_of_coffee (8).png" alt="" class="w-[50%]">
+                                            </div>
+                                            <div class="w-full">
+                                                <h3 class="text-regal-gray">Qui Et Ad</h3>
+                                                <span class="text-regal-matn text-16">20$</span>
+                                                <del class="text-[#585858] text-16 ">9%</del>
+                                            </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="swiper-button-next"></div>
+                                    <div class="swiper-button-prev"></div>
+                                    <!-- <div class="swiper-pagination"></div> -->
+                                  </div>
+                            </div>
+                        </div>
+                        <div class="mt-[50px] w-full h-[50px]  flex justify-center items-center rounded-md"><a href="" class="w-[20%] h-[50px] text-regal-matn rounded-md bg-regal-pink flex items-center justify-center">go to menu</a></div>
+                    </div>
+                   </div>
+                <!-- section six  -->
+                 <!-- section seven  -->
+                  <div class="w-full min-h-[200px]  p-[10px] md:pr-[50px] md:ps-[50px]">
+                    <div class="row">
+                        <div class="text-section-seven w-full">
+                            <div class="row *:text-center justify-center mb-[20px]">
+                                <h2 class="text-regal-gray font-bold text-3xl" >Pastry</h2>
+                                <p class="text-regal-matn">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                            </div>
+                        </div>
+                        <div class="row w-full h-full">
+                            <div class="text w-full md:w-1/2">
+                                <div class="swiper mySwiper3">
+                                    <div class="swiper-wrapper">
+                                      <div class="swiper-slide">
+                                        <div class="comment-slide p-[10px] ">
+                                            <p class="text-regal-matn">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
+                                            <div class="avator w-[50%] flex">
+                                                <div><img src="asset/img/637a6b7d370cfa110f683a78_woman_avatar.png" class="w-[50%]" alt=""></div>
+                                                <div class="*:text-base ">
+                                                    <p class="text-regal-gray">full name</p>
+                                                    <p class="text-regal-matn">position</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                      </div>
+                                      <div class="swiper-slide">
+                                        <div class="comment-slide p-[10px] ">
+                                            <p class="text-regal-matn">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
+                                            <div class="avator w-[50%] flex">
+                                                <div><img src="asset/img/637a6b7d8d9dda187be69703_woman_avatar_2.png" class="w-[50%]" alt=""></div>
+                                                <div class="*:text-base ">
+                                                    <p class="text-regal-gray">full name</p>
+                                                    <p class="text-regal-matn">position</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                      </div>
+                                      <div class="swiper-slide">
+                                        <div class="comment-slide p-[10px] ">
+                                            <p class="text-regal-matn">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
+                                            <div class="avator w-[50%] flex">
+                                                <div><img src="asset/img/637a6b7d8d9dda3835e69705_man_avatar.png" class="w-[50%]" alt=""></div>
+                                                <div class="*:text-base ">
+                                                    <p class="text-regal-gray">full name</p>
+                                                    <p class="text-regal-matn">position</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                     <div class="swiper-pagination"></div>
+                                  </div>
+                            </div>
+                            <div class="w-full md:w-1/2"><img src="asset/img/63914fe5afc7b442f65d7121_four cups coffee.png" alt=""></div>
+                        </div>
+                    </div>
+                  </div>
+                 <!-- section seven  -->
+                  <!-- footer  -->
+                   <div class="w-full ps-[50px] pt-[50px]  pr-[50px]">
+                    <div class="w-full mb-[20px]"><img src="asset/img/logo.svg" alt="" class="w-[100px]"></div>
+                    <div class="row w-full">
+                        <div class="w-full md:w-1/2 lg:w-1/4 min-h-[50px]">
+                            <div class="row">
+                                <h3 class="w-full text-black font-bold text-xl">menu</h3>
+                                <ul class="*:text-regal-matn">
+                                    <li class="hover:text-regal-pink"><a href="">home</a></li>
+                                    <li class="hover:text-regal-pink"><a href="">About Us</a></li>
+                                    <li class="hover:text-regal-pink"><a href="">Menu</a></li>
+                                    <li class="hover:text-regal-pink"><a href="">Reviews</a></li>
+                                    <li class="hover:text-regal-pink"><a href="">Blog</a></li>
+                                    <li class="hover:text-regal-pink"><a href="">Reservation</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="w-full md:w-1/2 lg:w-1/4 min-h-[50px]">
+                            <div class="row">
+                                <h3 class=" text-black font-bold text-xl w-full">Utility Pages</h3>
+                                <ul class="*:text-regal-matn">
+                                    <li  class="hover:text-regal-pink"><a href="">Password</a></li>
+                                    <li  class="hover:text-regal-pink"><a href="">404</a></li>
+                                    <li  class="hover:text-regal-pink"><a href="">Licences</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="w-full md:w-1/2 lg:w-1/4 min-h-[50px]">
+                            <div class="row">
+                                <h3 class=" text-black font-bold text-xl w-full">Contacts</h3>
+                                <ul class="*:text-regal-matn">
+                                    <li class="hover:text-regal-pink"><a href="">1127 Santa Monica Blvd</a></li>
+                                    <li class="hover:text-regal-pink"><a href="">+1 888 888 88 88</a></li>
+                                    <li class="hover:text-regal-pink"><a href="">help@cavada.com</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="w-full md:w-1/2 lg:w-1/4 min-h-[50px]">
+                            <div class="row">
+                                <h3 class=" text-black font-bold text-xl w-full">Subscribe to newsletter</h3>
+                                <p>Contact us if you need help with anything.</p>
+                                <input type="text" placeholder="email.." id="inp" class="rounded-md h-[50px] mt-[10px]">
+                                <button class="btn">submit</button>
+                            </div>
+                        </div>
+                    </div>
+                   </div>
+                  <!-- footer  -->
+        </div>
+    </main>
+   <script src="asset/js/1.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+   <!-- Initialize Swiper -->
+   <script>
+     var swiper = new Swiper(".mySwiper", {
+       slidesPerView: 3,
+       spaceBetween: 30,
+       loop: true,
+       navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      
+      breakpoints: {
+        320: {
+            slidesPerView: 1,
+            spaceBetween: 10,
+        },
+        768: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+        },
+        1024: {
+            slidesPerView: 3,
+            spaceBetween: 30,
+        },
+    }
+     });
+   </script>
+
+   <script>
+     var swiper = new Swiper(".mySwiper2", {
+       slidesPerView: 3,
+       spaceBetween: 30,
+       pagination: {
+         el: ".swiper-pagination",
+         clickable: true,
+       },
+       breakpoints: {
+        320: {
+            slidesPerView: 1,
+            spaceBetween: 10,
+        },
+        768: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+        },
+        1024: {
+            slidesPerView: 3,
+            spaceBetween: 30,
+        },
+    }
+     });
+   </script>
+     <script>
+        var swiper = new Swiper(".mySwiper3", {
+          loop: true,
+          pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+
+        });
+      </script>
+</body>
+</html>>
